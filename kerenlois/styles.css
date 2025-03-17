@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #95ccea;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('c:\Users\user\Desktop\new.jpg');
+    background-size: cover;
+    color: rgb(233, 21, 194);
+}
+
+.menu, .order {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(249, 243, 196);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    flex: 1 1 calc(50% - 20px);
+    background: #eb93e3;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select, button {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+.phone-number {
+    font-weight: bold;
+}
